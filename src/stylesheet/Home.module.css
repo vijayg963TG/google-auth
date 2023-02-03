@@ -1,0 +1,84 @@
+.title {
+  line-height: 2.1rem;
+  font-size: 1.6rem;
+  width: fit-content;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  font-weight: 500;
+}
+
+.header {
+  min-height: 140px;
+  box-sizing: border-box;
+  border-bottom: 1px solid lightgray;
+  margin: 0 1rem 1rem 1.7rem;
+}
+
+.h1 {
+  font-size: 2.4rem;
+  line-height: 1.1;
+  font-weight: 500;
+  padding-top: 1.2rem;
+  margin: 0px;
+}
+
+.post {
+  font-size: 1.25rem;
+  color: grey;
+  margin: 0;
+}
+
+.mainHeader {
+  padding: 0rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgba(232, 246, 231, 0.515);
+}
+
+.mainHeader button {
+  color: white;
+  font-weight: 600;
+  margin: 1rem;
+  padding: 0.7rem 3rem;
+  background-color: rgb(92, 194, 234);
+}
+
+@media screen and (max-width: 768px) {
+  .mainHeader {
+    flex-wrap: wrap;
+  }
+
+  .mainHeader button {
+    padding: 0.5rem 1rem;
+    margin: 0.4rem;
+    font-size: 10px;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .header {
+    min-height: 90px;
+    margin: 0 1rem 0.8rem 0.5rem;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .header p {
+    font-size: 1rem;
+  }
+
+  .mainHeader {
+    padding: 0.5rem 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mainHeader button {
+    padding: 0.5rem;
+  }
+}

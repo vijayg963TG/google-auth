@@ -1,0 +1,20 @@
+.error{
+    height: 100vh;
+    text-align: center;
+margin: 8rem auto;
+}
+
+.error p{
+    display: inline;
+    font-size: 1rem;
+}
+
+.error a{
+    font-size: 1.1rem;
+    color: rebeccapurple;
+    margin: 0 1rem ;
+}
+
+.error a:hover{
+    border-bottom:1px solid ;
+}
